@@ -1,0 +1,30 @@
+.columns {
+  border: 2px solid black;
+}
+
+.table-header {
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding: 8px;
+}
+
+table {
+  border: 1px solid lightgray;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.suspended-row {
+  color: rgb(0, 0, 0);
+  background-color: rgb(252, 228, 228) !important;
+}
+
+.filter {
+  margin: 10px;
+}
+
+.toggleButton {
+  border: 1px solid lightgray;
+}
